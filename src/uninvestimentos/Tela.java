@@ -5,8 +5,6 @@
  */
 package uninvestimentos;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author User
@@ -18,7 +16,6 @@ public class Tela extends javax.swing.JFrame {
      */
     public Tela() {
         initComponents();
-        internalFrameRegistar.setVisible(false);
     }
 
     /**
@@ -30,12 +27,12 @@ public class Tela extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        rbGrupoSexo = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
-        internalFrameRegistar = new javax.swing.JInternalFrame();
+        jIFrameRegistar = new javax.swing.JInternalFrame();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+<<<<<<< HEAD
         tfApelido = new javax.swing.JTextField();
         rbM = new javax.swing.JRadioButton();
         rbF = new javax.swing.JRadioButton();
@@ -53,6 +50,8 @@ public class Tela extends javax.swing.JFrame {
         cbCategoria = new javax.swing.JComboBox();
         btnGravar = new javax.swing.JButton();
         btnLimpar = new javax.swing.JButton();
+=======
+>>>>>>> parent of 47210d7... Tela De Registo
         jMenuBar1 = new javax.swing.JMenuBar();
         mnRegistar = new javax.swing.JMenu();
         mnPesquisar = new javax.swing.JMenu();
@@ -60,11 +59,10 @@ public class Tela extends javax.swing.JFrame {
         mnRemover = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("UniInvestimentos");
 
-        internalFrameRegistar.setClosable(true);
-        internalFrameRegistar.setTitle("Registar Funcionario");
-        internalFrameRegistar.setVisible(true);
+        jIFrameRegistar.setClosable(true);
+        jIFrameRegistar.setTitle("Registar Funcionario");
+        jIFrameRegistar.setVisible(true);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("Apelido:");
@@ -75,6 +73,7 @@ public class Tela extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setText("Sexo:");
 
+<<<<<<< HEAD
         tfApelido.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         tfApelido.setBorder(null);
 
@@ -177,11 +176,25 @@ public class Tela extends javax.swing.JFrame {
                                             .addComponent(cbCategoria, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                                     .addGap(0, 0, Short.MAX_VALUE))))))
                 .addContainerGap(18, Short.MAX_VALUE))
+=======
+        javax.swing.GroupLayout jIFrameRegistarLayout = new javax.swing.GroupLayout(jIFrameRegistar.getContentPane());
+        jIFrameRegistar.getContentPane().setLayout(jIFrameRegistarLayout);
+        jIFrameRegistarLayout.setHorizontalGroup(
+            jIFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jIFrameRegistarLayout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addGroup(jIFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel1))
+                .addContainerGap(478, Short.MAX_VALUE))
+>>>>>>> parent of 47210d7... Tela De Registo
         );
-        internalFrameRegistarLayout.setVerticalGroup(
-            internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(internalFrameRegistarLayout.createSequentialGroup()
+        jIFrameRegistarLayout.setVerticalGroup(
+            jIFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jIFrameRegistarLayout.createSequentialGroup()
                 .addContainerGap()
+<<<<<<< HEAD
                 .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel1)
                     .addGroup(internalFrameRegistarLayout.createSequentialGroup()
@@ -203,11 +216,13 @@ public class Tela extends javax.swing.JFrame {
                     .addComponent(jLabel4)
                     .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                .addComponent(jLabel1)
+>>>>>>> parent of 47210d7... Tela De Registo
                 .addGap(18, 18, 18)
-                .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel2)
                 .addGap(18, 18, 18)
+<<<<<<< HEAD
                 .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
 
@@ -248,6 +263,10 @@ public class Tela extends javax.swing.JFrame {
                     .addComponent(btnGravar)
                     .addComponent(btnLimpar))
                 .addContainerGap())
+=======
+                .addComponent(jLabel3)
+                .addContainerGap(502, Short.MAX_VALUE))
+>>>>>>> parent of 47210d7... Tela De Registo
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -256,28 +275,18 @@ public class Tela extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(46, Short.MAX_VALUE)
-                .addComponent(internalFrameRegistar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jIFrameRegistar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(38, 38, 38))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(30, 30, 30)
-                .addComponent(internalFrameRegistar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(27, Short.MAX_VALUE))
+                .addComponent(jIFrameRegistar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(37, Short.MAX_VALUE))
         );
 
         mnRegistar.setText("Registar");
-        mnRegistar.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                mnRegistarMouseClicked(evt);
-            }
-        });
-        mnRegistar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mnRegistarActionPerformed(evt);
-            }
-        });
         jMenuBar1.add(mnRegistar);
 
         mnPesquisar.setText("Pesquisar");
@@ -305,9 +314,9 @@ public class Tela extends javax.swing.JFrame {
         );
 
         pack();
-        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void cbCategoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbCategoriaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_cbCategoriaActionPerformed
@@ -324,6 +333,8 @@ public class Tela extends javax.swing.JFrame {
         internalFrameRegistar.setVisible(true);
     }//GEN-LAST:event_mnRegistarMouseClicked
 
+=======
+>>>>>>> parent of 47210d7... Tela De Registo
     /**
      * @param args the command line arguments
      */
@@ -360,6 +371,7 @@ public class Tela extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JButton btnGravar;
     private javax.swing.JButton btnLimpar;
     private javax.swing.JComboBox cbCategoria;
@@ -370,21 +382,19 @@ public class Tela extends javax.swing.JFrame {
 
     private javax.swing.JComboBox jComboBox1;
 
+=======
+    private javax.swing.JInternalFrame jIFrameRegistar;
+>>>>>>> parent of 47210d7... Tela De Registo
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JMenu mnListar;
     private javax.swing.JMenu mnPesquisar;
     private javax.swing.JMenu mnRegistar;
     private javax.swing.JMenu mnRemover;
+<<<<<<< HEAD
     private javax.swing.JRadioButton rbF;
     private javax.swing.ButtonGroup rbGrupoSexo;
     private javax.swing.JRadioButton rbM;
@@ -394,5 +404,7 @@ public class Tela extends javax.swing.JFrame {
     private javax.swing.JTextField tfNome;
     private javax.swing.JTextField tfSalario;
     private javax.swing.JTextField tfTelfone;
+=======
+>>>>>>> parent of 47210d7... Tela De Registo
     // End of variables declaration//GEN-END:variables
 }
