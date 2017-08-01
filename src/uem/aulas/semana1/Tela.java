@@ -1,6 +1,8 @@
 
 package uem.aulas.semana1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author João Metambo
