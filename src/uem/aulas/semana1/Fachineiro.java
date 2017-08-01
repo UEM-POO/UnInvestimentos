@@ -12,15 +12,15 @@ import java.util.Date;
  *  
  * Classe Modelo do Gestor.
  */
-public class Gestor {
+public class Fachineiro {
     
     private String nome;
     private Date dataIngresso;
     private Date dataRegisto;
-    private final double BONUS = 0.03;
+    private final double BONUS = 0.02;
     private double salario;
 
-    public Gestor(String nome, Date dataIngresso, double salario) {
+    public Fachineiro(String nome, Date dataIngresso, double salario) {
         this.nome = nome;
         this.dataIngresso = dataIngresso;
         this.salario = salario;
