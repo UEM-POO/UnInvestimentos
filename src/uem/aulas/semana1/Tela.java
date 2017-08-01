@@ -1,15 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package uem.aulas.semana1;
 
 import javax.swing.JOptionPane;
 
 /**
  *
- * @author User
+ * @author João Metambo
+ * @author José Seie
+ * @author Alfredo Sebastião
+ * @version 1.0
+ *  
+ * Tela de cadastro dos Funcionarios: Gestor, Caixa e Fachineiro.
+ * @see Gestor;
  */
 public class Tela extends javax.swing.JFrame {
 
