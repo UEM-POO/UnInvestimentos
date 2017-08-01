@@ -53,7 +53,6 @@ public class Tela extends javax.swing.JFrame {
         cbCategoria = new javax.swing.JComboBox();
         btnGravar = new javax.swing.JButton();
         btnLimpar = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         mnRegistar = new javax.swing.JMenu();
         mnPesquisar = new javax.swing.JMenu();
@@ -65,7 +64,7 @@ public class Tela extends javax.swing.JFrame {
 
         internalFrameRegistar.setClosable(true);
         internalFrameRegistar.setTitle("Registar Funcionario");
-        internalFrameRegistar.setVisible(false);
+        internalFrameRegistar.setVisible(true);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("Apelido:");
@@ -131,8 +130,6 @@ public class Tela extends javax.swing.JFrame {
 
         btnLimpar.setText("Limpar");
 
-        jButton1.setText("jButton1");
-
         javax.swing.GroupLayout internalFrameRegistarLayout = new javax.swing.GroupLayout(internalFrameRegistar.getContentPane());
         internalFrameRegistar.getContentPane().setLayout(internalFrameRegistarLayout);
         internalFrameRegistarLayout.setHorizontalGroup(
@@ -169,8 +166,6 @@ public class Tela extends javax.swing.JFrame {
                                 .addGroup(internalFrameRegistarLayout.createSequentialGroup()
                                     .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                         .addGroup(internalFrameRegistarLayout.createSequentialGroup()
-                                            .addComponent(jButton1)
-                                            .addGap(18, 18, 18)
                                             .addComponent(btnLimpar)
                                             .addGap(18, 18, 18)
                                             .addComponent(btnGravar))
@@ -181,7 +176,7 @@ public class Tela extends javax.swing.JFrame {
                                             .addComponent(tfSalario, javax.swing.GroupLayout.DEFAULT_SIZE, 319, Short.MAX_VALUE)
                                             .addComponent(cbCategoria, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                                     .addGap(0, 0, Short.MAX_VALUE))))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         internalFrameRegistarLayout.setVerticalGroup(
             internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -196,10 +191,14 @@ public class Tela extends javax.swing.JFrame {
                 .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
 <<<<<<< HEAD
+<<<<<<< HEAD
                     .addComponent(jTextField3))
 =======
                     .addComponent(tfNome, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE))
 >>>>>>> origin/master
+=======
+                    .addComponent(jTextField3, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE))
+>>>>>>> parent of 6055d68... AddButton
                 .addGap(14, 14, 14)
                 .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
@@ -209,14 +208,19 @@ public class Tela extends javax.swing.JFrame {
                 .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
 <<<<<<< HEAD
+<<<<<<< HEAD
                     .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+>>>>>>> parent of 6055d68... AddButton
                 .addGap(18, 18, 18)
                 .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
-                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
+<<<<<<< HEAD
                     .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
 =======
                     .addComponent(tfTelfone, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -229,6 +233,9 @@ public class Tela extends javax.swing.JFrame {
                     .addComponent(jLabel6)
                     .addComponent(tfDataIngresso, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
 >>>>>>> origin/master
+=======
+                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+>>>>>>> parent of 6055d68... AddButton
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel7)
                 .addGap(11, 11, 11)
@@ -243,15 +250,18 @@ public class Tela extends javax.swing.JFrame {
                     .addGroup(internalFrameRegistarLayout.createSequentialGroup()
                         .addGap(1, 1, 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
                         .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
 =======
                         .addComponent(tfSalario, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
 >>>>>>> origin/master
+=======
+                        .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+>>>>>>> parent of 6055d68... AddButton
                         .addGap(18, 18, Short.MAX_VALUE)))
                 .addGroup(internalFrameRegistarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGravar)
-                    .addComponent(btnLimpar)
-                    .addComponent(jButton1))
+                    .addComponent(btnLimpar))
                 .addContainerGap())
         );
 
@@ -260,15 +270,16 @@ public class Tela extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(546, Short.MAX_VALUE)
-                .addComponent(internalFrameRegistar, javax.swing.GroupLayout.PREFERRED_SIZE, 0, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(41, 41, 41))
+                .addContainerGap(46, Short.MAX_VALUE)
+                .addComponent(internalFrameRegistar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(38, 38, 38))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(internalFrameRegistar, javax.swing.GroupLayout.PREFERRED_SIZE, 0, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(312, Short.MAX_VALUE))
+                .addGap(30, 30, 30)
+                .addComponent(internalFrameRegistar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(27, Short.MAX_VALUE))
         );
 
         mnRegistar.setText("Registar");
@@ -305,7 +316,7 @@ public class Tela extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 155, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -369,7 +380,10 @@ public class Tela extends javax.swing.JFrame {
     private javax.swing.JComboBox cbCategoria;
     private javax.swing.JInternalFrame internalFrameRegistar;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JButton jButton1;
+=======
+>>>>>>> parent of 6055d68... AddButton
     private javax.swing.JComboBox jComboBox1;
 =======
 >>>>>>> origin/master

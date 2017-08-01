@@ -64,7 +64,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="155" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -76,17 +76,18 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="546" max="32767" attributes="0"/>
-                  <Component id="internalFrameRegistar" min="-2" pref="0" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <EmptySpace pref="46" max="32767" attributes="0"/>
+                  <Component id="internalFrameRegistar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <Component id="internalFrameRegistar" min="-2" pref="0" max="-2" attributes="0"/>
-                  <EmptySpace pref="312" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="internalFrameRegistar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -96,7 +97,7 @@
           <Properties>
             <Property name="closable" type="boolean" value="true"/>
             <Property name="title" type="java.lang.String" value="Registar Funcionario"/>
-            <Property name="visible" type="boolean" value="false"/>
+            <Property name="visible" type="boolean" value="true"/>
           </Properties>
 
           <Layout>
@@ -140,8 +141,6 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Group type="102" attributes="0">
-                                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Component id="btnLimpar" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Component id="btnGravar" min="-2" max="-2" attributes="0"/>
@@ -160,7 +159,7 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="18" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -179,10 +178,14 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <Component id="jTextField3" alignment="3" max="32767" attributes="0"/>
 =======
                           <Component id="tfNome" alignment="3" pref="23" max="32767" attributes="0"/>
 >>>>>>> origin/master
+=======
+                          <Component id="jTextField3" alignment="3" pref="23" max="32767" attributes="0"/>
+>>>>>>> parent of 6055d68... AddButton
                       </Group>
                       <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -194,28 +197,40 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <Component id="jTextField4" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
 =======
                           <Component id="tfTelfone" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
 >>>>>>> origin/master
+=======
+                          <Component id="jTextField4" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+>>>>>>> parent of 6055d68... AddButton
                       </Group>
                       <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <Component id="jTextField5" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
 =======
                           <Component id="tfMorada" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
 >>>>>>> origin/master
+=======
+                          <Component id="jTextField5" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+>>>>>>> parent of 6055d68... AddButton
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <Component id="jTextField6" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
 =======
                           <Component id="tfDataIngresso" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
 >>>>>>> origin/master
+=======
+                          <Component id="jTextField6" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+>>>>>>> parent of 6055d68... AddButton
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
@@ -233,17 +248,20 @@
                           <Group type="102" attributes="0">
                               <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <Component id="jTextField7" min="-2" pref="23" max="-2" attributes="0"/>
 =======
                               <Component id="tfSalario" min="-2" pref="31" max="-2" attributes="0"/>
 >>>>>>> origin/master
+=======
+                              <Component id="jTextField7" min="-2" pref="31" max="-2" attributes="0"/>
+>>>>>>> parent of 6055d68... AddButton
                               <EmptySpace type="separate" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="btnGravar" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="btnLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -416,11 +434,6 @@
             <Component class="javax.swing.JButton" name="btnLimpar">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Limpar"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JButton" name="jButton1">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="jButton1"/>
               </Properties>
             </Component>
           </SubComponents>
