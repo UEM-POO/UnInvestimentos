@@ -5,8 +5,8 @@ Exercicio a ser resolvido junto com as turmas de Laboral e Pós-Laboral do curso
 
 # Exercicio
 
-1.	A uniInvestimentos é uma empresa de limpeza que pretende ter um sistema onde seja possível fazer o controlo de seus funcionários. Quanto ao funcionário é importante saber os seus dados básicos:
- Data de ingresso, categoria (gestor, caixa e faxineiro),a data de registo e seu salario. 
+A uniInvestimentos é uma empresa de limpeza que pretende ter um sistema onde seja possível fazer o controlo de seus funcionários. Quanto ao funcionário é importante saber os seus dados básicos:
+Data de ingresso, categoria (gestor, caixa e faxineiro),a data de registo e seu salario. 
  
 • O sistema deve permitir o registo de vários funcionários; 
 
