@@ -1,6 +1,9 @@
 
 package uem.aulas.semana1;
 
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import javax.swing.JOptionPane;
 
 /**
@@ -18,6 +21,9 @@ public class Tela extends javax.swing.JFrame {
     /**
      * Creates new form Tela
      */
+    
+    private FuncionarioController fc = new FuncionarioController();
+    
     public Tela() {
         initComponents();
         internalFrameRegistarGestor.setVisible(false);
@@ -42,18 +48,30 @@ public class Tela extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         internalFrameRegistarGestor = new javax.swing.JInternalFrame();
         jLabel21 = new javax.swing.JLabel();
+<<<<<<< HEAD
         jTextField4 = new javax.swing.JTextField();
         jLabel23 = new javax.swing.JLabel();
         jTextField8 = new javax.swing.JTextField();
+=======
+        tfNome = new javax.swing.JTextField();
+        jLabel23 = new javax.swing.JLabel();
+        tfDataIngresso = new javax.swing.JTextField();
+>>>>>>> origin/master
         jLabel26 = new javax.swing.JLabel();
-        jTextField10 = new javax.swing.JTextField();
+        tfSalario = new javax.swing.JTextField();
         btnGravar1 = new javax.swing.JButton();
         btnLimpar1 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
+<<<<<<< HEAD
         jTable1 = new javax.swing.JTable();
         jLabel27 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox();
+=======
+        tabela = new javax.swing.JTable();
+        jLabel27 = new javax.swing.JLabel();
+        cbCategoria = new javax.swing.JComboBox();
+>>>>>>> origin/master
         jLabel4 = new javax.swing.JLabel();
         internalFrameRegistarCaixa = new javax.swing.JInternalFrame();
         jLabel1 = new javax.swing.JLabel();
@@ -140,20 +158,30 @@ public class Tela extends javax.swing.JFrame {
         jLabel21.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel21.setText("Nome:");
 
+<<<<<<< HEAD
         jTextField4.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jTextField4.setBorder(null);
+=======
+        tfNome.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
+        tfNome.setBorder(null);
+>>>>>>> origin/master
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel23.setText("Data de Ingresso:");
 
+<<<<<<< HEAD
         jTextField8.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jTextField8.setBorder(null);
+=======
+        tfDataIngresso.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
+        tfDataIngresso.setBorder(null);
+>>>>>>> origin/master
 
         jLabel26.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel26.setText("Salario:");
 
-        jTextField10.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
-        jTextField10.setBorder(null);
+        tfSalario.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
+        tfSalario.setBorder(null);
 
         btnGravar1.setText("Gravar");
         btnGravar1.addActionListener(new java.awt.event.ActionListener() {
@@ -166,7 +194,11 @@ public class Tela extends javax.swing.JFrame {
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Lista de Funcionarios"));
 
+<<<<<<< HEAD
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
+=======
+        tabela.setModel(new javax.swing.table.DefaultTableModel(
+>>>>>>> origin/master
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -177,7 +209,11 @@ public class Tela extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+<<<<<<< HEAD
         jScrollPane2.setViewportView(jTable1);
+=======
+        jScrollPane2.setViewportView(tabela);
+>>>>>>> origin/master
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -199,10 +235,17 @@ public class Tela extends javax.swing.JFrame {
         jLabel27.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel27.setText("Categoria:");
 
+<<<<<<< HEAD
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "seleccione a categoria", "GESTOR", "CAIXA", "FACHIINEIRO" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);
+=======
+        cbCategoria.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "seleccione a categoria", "GESTOR", "CAIXA", "FACHIINEIRO" }));
+        cbCategoria.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbCategoriaActionPerformed(evt);
+>>>>>>> origin/master
             }
         });
 
@@ -231,11 +274,20 @@ public class Tela extends javax.swing.JFrame {
                             .addComponent(jLabel21))
                         .addGap(140, 140, 140)
                         .addGroup(internalFrameRegistarGestorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
                             .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel4)
                             .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE))))
+=======
+                            .addComponent(jLabel4)
+                            .addComponent(tfNome, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tfSalario, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cbCategoria, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tfDataIngresso, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(64, 64, 64)))
+>>>>>>> origin/master
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         internalFrameRegistarGestorLayout.setVerticalGroup(
@@ -244,6 +296,7 @@ public class Tela extends javax.swing.JFrame {
                 .addGap(21, 21, 21)
                 .addGroup(internalFrameRegistarGestorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel21)
+<<<<<<< HEAD
                     .addComponent(jTextField4, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(internalFrameRegistarGestorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -251,11 +304,20 @@ public class Tela extends javax.swing.JFrame {
                     .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(internalFrameRegistarGestorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(internalFrameRegistarGestorLayout.createSequentialGroup()
+=======
+                    .addComponent(tfNome, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel4)
+                .addGroup(internalFrameRegistarGestorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(internalFrameRegistarGestorLayout.createSequentialGroup()
+                        .addComponent(jLabel23)
+>>>>>>> origin/master
                         .addGap(18, 18, 18)
                         .addComponent(jLabel26)
                         .addGap(25, 25, 25))
                     .addGroup(internalFrameRegistarGestorLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                         .addComponent(jLabel4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -263,13 +325,28 @@ public class Tela extends javax.swing.JFrame {
                 .addGroup(internalFrameRegistarGestorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel27)
                     .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                        .addComponent(tfDataIngresso, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(tfSalario, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
+                .addGroup(internalFrameRegistarGestorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel27)
+                    .addComponent(cbCategoria, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+>>>>>>> origin/master
                 .addGap(18, 18, 18)
                 .addGroup(internalFrameRegistarGestorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGravar1)
                     .addComponent(btnLimpar1))
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(175, Short.MAX_VALUE))
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(191, Short.MAX_VALUE))
+>>>>>>> origin/master
         );
 
         internalFrameRegistarCaixa.setClosable(true);
@@ -978,7 +1055,11 @@ public class Tela extends javax.swing.JFrame {
     }//GEN-LAST:event_mnRemoverMenuKeyPressed
 
     private void btnGravar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGravar1ActionPerformed
-        // TODO add your handling code here:
+        
+        gravar();
+        
+        this.fc.listarTodos(tabela);
+        
     }//GEN-LAST:event_btnGravar1ActionPerformed
 
     private void jTextField12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField12ActionPerformed
@@ -989,9 +1070,15 @@ public class Tela extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnGravar2ActionPerformed
 
+<<<<<<< HEAD
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
+=======
+    private void cbCategoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbCategoriaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbCategoriaActionPerformed
+>>>>>>> origin/master
 
     /**
      * @param args the command line arguments
@@ -1038,6 +1125,7 @@ public class Tela extends javax.swing.JFrame {
     private javax.swing.JButton btnLimpar2;
     private javax.swing.JButton btnPesquisar;
     private javax.swing.JButton btnPesquisar1;
+    private javax.swing.JComboBox cbCategoria;
     private javax.swing.JInternalFrame internalFrameListar;
     private javax.swing.JInternalFrame internalFramePesquisar;
     private javax.swing.JInternalFrame internalFrameRegistarCaixa;
@@ -1088,9 +1176,11 @@ public class Tela extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButton6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+<<<<<<< HEAD
     private javax.swing.JTable jTable1;
+=======
+>>>>>>> origin/master
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
     private javax.swing.JTextField jTextField13;
@@ -1100,11 +1190,13 @@ public class Tela extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField17;
     private javax.swing.JTextField jTextField18;
     private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
     private javax.swing.JTextField jTextField7;
+<<<<<<< HEAD
     private javax.swing.JTextField jTextField8;
+=======
+>>>>>>> origin/master
     private javax.swing.JLabel lbApelidoEncontrado;
     private javax.swing.JLabel lbCategoriaEncontrada;
     private javax.swing.JLabel lbDataEncontrada;
@@ -1118,8 +1210,80 @@ public class Tela extends javax.swing.JFrame {
     private javax.swing.JMenu mnRegistar;
     private javax.swing.JMenu mnRemover;
     private javax.swing.ButtonGroup rbGrupoSexo;
+    private javax.swing.JTable tabela;
     private javax.swing.JTable tbFuncionarios;
+    private javax.swing.JTextField tfDataIngresso;
+    private javax.swing.JTextField tfNome;
     private javax.swing.JTextField tfPesquisa;
     private javax.swing.JTextField tfPesquisa1;
+    private javax.swing.JTextField tfSalario;
     // End of variables declaration//GEN-END:variables
+
+    private void gravar() {
+        
+        int indice = cbCategoria.getSelectedIndex();
+                 
+            switch (indice){
+                case 1:  {gravarGestor();break;}
+                case 2:  {gravarCaixa();break;}
+                case 3:  {gravarFachineiro();break;}
+                
+                default: {
+                    JOptionPane.showMessageDialog(null, "Selecione a categoria");
+                }
+            }
+
+                
+    }
+    
+    private void gravarGestor(){
+        Gestor g = new Gestor(
+                tfNome.getText(), 
+                buscarData(),
+                Double.parseDouble(tfSalario.getText())
+        );
+        
+        if(this.fc.addicionar(g)){
+            JOptionPane.showMessageDialog(null, "Gestor add com sucesso");
+        }
+    }
+    
+    private void gravarCaixa(){
+        Caixa c = new Caixa(
+                tfNome.getText(), 
+                buscarData(),
+                Double.parseDouble(tfSalario.getText())
+        );
+        
+        if(this.fc.addicionar(c)){
+            JOptionPane.showMessageDialog(null, "Caixa add com sucesso");
+        }
+    }
+    
+    private void gravarFachineiro(){
+        Fachineiro f = new Fachineiro(
+                tfNome.getText(), 
+                buscarData(),
+                Double.parseDouble(tfSalario.getText())
+        );
+        
+        if(this.fc.addicionar(f)){
+            JOptionPane.showMessageDialog(null, "Fachineiro add com sucesso");
+        }
+    }
+    
+   
+    private Date buscarData(){
+        
+        int dia = Integer.parseInt(tfDataIngresso.getText().split("/")[0]);
+        int mes = Integer.parseInt(tfDataIngresso.getText().split("/")[1]);
+        int ano = Integer.parseInt(tfDataIngresso.getText().split("/")[2]);
+        Calendar data = Calendar.getInstance();
+        data.set(Calendar.YEAR, ano);
+        data.set(Calendar.MONTH, mes);
+        data.set(Calendar.DAY_OF_MONTH, dia);
+        
+        return data.getTime();
+    }
+    
 }
