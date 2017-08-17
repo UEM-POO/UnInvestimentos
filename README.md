@@ -21,5 +21,5 @@ Data de ingresso, categoria (gestor, caixa e faxineiro),a data de registo e seu 
 • Permitir escolher a ordem de listagem dos funcionários (caso a ordem não se especifique, liste-os usando qualquer critério a sua escolha).
 
 Conclua a resolução deste exercício sem o uso de herança e polimorfismo.
-Nota: prepare esta resolução para entregar na segunda ate 13h, ao chefe da turma.
+Nota: prepare esta resolução para entregar na segunda ate 13h, ao chefe da turma;
 
